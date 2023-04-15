@@ -1,9 +1,9 @@
 name: Keep cron alive
 
-#on:
-#  workflow_dispatch:
-#  schedule:
-#    - cron: '0 0 * * 1'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'
 
 jobs:
   update:
